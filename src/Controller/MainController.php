@@ -12,11 +12,12 @@ class MainController extends AbstractController
     public function homepage(): Response
     {
         //return new Response('Hello Starshop !');
+        
         $starshipCount = 427;
         return $this->render('main/homepage.html.twig',[
             'numberOfStarship' => $starshipCount,
         ]);
-
+    
     }
 
 

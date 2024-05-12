@@ -56,6 +56,6 @@ class IndexController extends AbstractController
         </tr>
     </tbody>
 </table>
-    <a href="#">Créer un nouveau client</a>
+    <a href="create.php">Créer un nouveau client</a>
 </body>
 </html>
